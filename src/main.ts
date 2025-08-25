@@ -1,5 +1,6 @@
 import './style.css';
 import { APP_VERSION } from './constants';
+
 import { loadSettings } from './settings';
 import { renderStoreList } from './components/StoreList';
 import { createSettingsModal } from './components/SettingsModal';
@@ -29,4 +30,5 @@ if (app) {
       render();
     }).showModal();
   });
+
 }
