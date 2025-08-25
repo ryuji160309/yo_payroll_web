@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  font-size: 14px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 44px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 12px;
+  background: #1a1a1a;
+  color: #fff;
+}
+
+main {
+  padding-top: 44px;
+}
+
+.store-btn {
+  width: 100%;
+  text-align: left;
+  padding: 12px;
+  min-height: 44px;
+  font-size: 14px;
+}
+
+.settings-modal::backdrop {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.settings-modal {
+  padding: 16px;
+  border: none;
+  border-radius: 8px;
+}
+
+.settings-modal form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.settings-modal .store-row {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.settings-modal .store-row input {
+  flex: 1;
+}
+
+.settings-modal button {
+  min-height: 32px;
+}
